@@ -1,0 +1,94 @@
+.tier {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    text-align: center;
+    margin: 20px ;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+#sppinf { background-color: red; }
+#a-tier { background-color: orange; }
+#b-tier { background-color: green; }
+#c-tier { background-color: blue; }
+#d-tier { background-color: purple; }
+#f-tier { background-color: black; }
+
+.canidates {
+    width: 200px;
+    height: 200px;
+    position : relative;
+    left: 200px;
+    top: -1000px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+.canidates:hover {
+    border: 5px solid yellow;
+    transform: scale(1.05);
+    transition: all 0.2s;
+    box-shadow: 0 0 10px yellow,
+                0 0 20px yellow,
+                0 0 40px yellow;
+    animation: rainbowGlow 2s linear infinite;
+;
+}
+.canidates img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+@keyframes rainbowGlow {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+#white-flower {
+    top : -1340px;
+    left: -25px;
+    background-color: red;
+
+}
+#eggys {
+    top : -1320px;
+    left: -25px;
+    background-color: orange;
+}
+#pencil {
+    top : -1300px;
+    left: -25px;
+    background-color: green;
+}
+#fish {
+    top : -1280px;
+    left: -25px;
+    background-color: blue;
+}
+#eggplant {
+    top : -1260px;
+    left: -25px;
+    background-color: purple;
+}
+#cherry {
+    top : -1240px;
+    left: -25px;
+    background-color: black;
+}
+#po-a-o {
+    top : -2320px;
+    left: 200px;
+    background-color: orange;
+}
+#peanut {
+    top : -2080px;
+    left: 200px;
+    background-color: blue;
+}
