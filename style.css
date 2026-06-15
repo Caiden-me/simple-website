@@ -1,0 +1,51 @@
+
+#white-flower {
+    text-align: center;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+header {
+    text-align: center;
+    margin: 20px ;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+h1{
+    animation: rgbCycle 10s infinite;
+    font-family: 'Poppins', sans-serif;
+    
+}
+main{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+footer {
+    text-align: center;
+    margin: 20px ;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+@keyframes rgbCycle {
+    0%   { color: rgb(255, 0, 0); }
+    9.09%  { color: rgb(255, 125, 0); }
+    18.18% { color: rgb(255, 255, 0); }
+    27.27% { color: rgb(125, 255, 0); }
+    36.36% { color: rgb(0, 255, 0); }
+    45.45% { color: rgb(0, 255, 125); }
+    54.54% { color: rgb(0, 255, 255); }
+    63.63% { color: rgb(0, 125, 255); }
+    72.72% { color: rgb(0, 0, 255); }
+    81.81% { color: rgb(125, 0, 255); }
+    88.88% { color: rgb(255, 0, 255); }
+    100% { color: rgb(255, 0, 0); }
+}
